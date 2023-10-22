@@ -1,0 +1,64 @@
+  body {
+            background-color:#e0e0e0 ;
+            margin: 0;
+           
+        }
+
+        header {
+            background-color: black;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px;
+        }
+        a{
+        	color: black;
+        	text-decoration: none;
+        }
+
+h2{
+	color : #333;
+	text-align: center;
+	border-radius: 19px;
+   background: #f2f2f2;
+   padding: 20px;
+   
+}
+button {
+	color : #333;
+	text-align: center;
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: #e0e0e0;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+button:hover {
+ letter-spacing: 3px;
+ background-color: #c0c0c0;
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+ letter-spacing: 3px;
+ background-color: #808080;
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
+
+.centered-form {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the container take the full viewport height */
+} 
+
+       
+
