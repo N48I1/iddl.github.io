@@ -1,0 +1,111 @@
+  body {
+            background-color:#e0e0e0 ;
+            margin: 0;
+           
+        }
+
+        header {
+            background-color: black;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px;
+        }
+img{
+   width: 100%;
+}  
+
+#div1 a {
+  display: inline-block; /* Make the anchor elements behave like inline-block elements */
+  margin: 5px 10px; /* Add spacing between buttons */
+}
+
+#div1{
+	color : #333;
+	text-align: center;
+	border-radius: 19px;
+   background: #f2f2f2;
+   padding: 20px;
+}
+table {
+  width: 100%;
+  box-sizing: border-box;
+  color : #333;
+  text-align: center;
+  border-radius: 19px;
+   background: #f2f2f2;
+   padding: 20px;
+}
+td button{
+   width: 100%;
+  box-sizing: border-box; /* Set a fixed width for all buttons */
+  height: 100px;
+}
+
+samp{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px; /* Adjust the value as needed */
+}
+h2{
+  font-family: "Times New Roman", serif;
+   display: inline-block;
+  padding: 10px 40px;
+ border-radius: 50px;
+ background-color: #e0e0e0;
+text-transform: uppercase;
+ font-size: 15px;
+ box-shadow: #c0c0c0 0px 7px 29px 0px;
+
+}
+p {
+  width: 100%;
+  box-sizing: border-box;
+ 
+   line-height: 1.5;
+  display: inline-block;
+  color : #333;
+ padding: 17px 40px;
+ border-radius: 20px;
+ border: 0;
+ margin : 0;
+ background-color: #e0e0e0;
+ letter-spacing: 1.5px;
+ 
+ font-size: 15px;
+   box-shadow: #c0c0c0 0px 7px 29px 0px;
+}
+button {
+	display: inline-block;
+	color : #333;
+	text-align: center;
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ background-color: #e0e0e0;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+button:hover {
+ letter-spacing: 3px;
+ background-color: #c0c0c0;
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+ letter-spacing: 3px;
+ background-color: #808080;
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
+
+
+
+       
+
